@@ -25,8 +25,17 @@ To add a chunk either click on the green Insert button and choose R or hit Comma
 
 2) Please describe one of the ways that Wilson et. al. suggest is a good practice for computational reproducibility and how a tool like R can be used. Write your answer below.
 
+The paper by Wilson et. al. had many good suggestions that are applicable to more researchers than just computational scientists, because they conceptually are based on brevity, communication, and consistency. The one good practice involving R that stuck with me was to utilize instructional files and commentary within programs to facilitate future collaboration with others and self. My last job as at technician I was solely running a 125k compound qPCR screen (single dose in duplicate; ~800 384w plates), and inevitably I was dealing with large sets of data. I wish I had read this article before starting, before passing off my files to the next screening victim when I left I had to re-format because when I took a second to stop and re-assess, I realized I was doing many things inefficiently because it was convenient. Paying more attention to specific labeling, writing down overall procedures, saving intermediate and raw data individually, and more could have helped a lot. Present me was frustrated with past me for being a lazy collaborator. I think papers like this are very helpful for us, I think a lot of basics go untaught because they're assumed.
 
 3) Add a code chunk and find the square root of 4 to the 13th power. If you are unsure of what command to use, google it. 
+
+```{r}
+B <- 4 #base
+X <- 13 #exponent
+N <- (B^X) #number
+N_sqrt <- sqrt(N)
+N_sqrt
+```
 
 
 4) Push this homework to the GitHub repository for the homework. 
